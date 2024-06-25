@@ -1,10 +1,10 @@
 # Module 18 Challenge: Neural Network Challenge 1
 
 ## Problem Statement
-Create a model to predict the likelyhood that a student loan applicant will repay their loan based on information about previous student loan recipients.
+Create a model to predict the likelihood that a student loan applicant will repay their loan based on information about previous student loan recipients.
 
 ## Solution
-As instructed, we use the `credit_ranking` feature provided in the data with values `0` and `1` to decide whether an applicant is likely to repay their student loan. A `credit_ranking` value of `1` indicates the applicant will most likely repay their loan whereas a value of `0` indicates that they will most likely not repay their loan.  
+As instructed, we use the `credit_ranking` feature provided in the data with values `0` and `1` to decide whether an applicant is likely to repay their student loan. A `credit_ranking` value of `1` indicates the applicant will most likely repay their loan, whereas a value of `0` indicates that they will most likely not repay their loan.  
 We use a deep-learning neural network with two hidden layers to classify the data.
 
 Since all the features have numeric data types (float or int), no encoding is necessary.
